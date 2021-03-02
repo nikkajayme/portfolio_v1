@@ -1,0 +1,57 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #283044;
+    font-family: 'Public Sans';
+
+    .contact_nav {
+    
+        border: .2px solid #cecece;
+        font-size: 14px;
+        padding: .75rem 1.5rem;
+        text-decoration: none;
+        border-radius: 5px;
+        color: #ececec;
+        transition: background-color 300ms ease-in-out;
+
+        &:hover {
+            background-color: #eea49f30;
+        }
+    }
+}
+
+.logo {
+    color: #ececec;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+
+    li {
+        list-style: none;
+        color: #ececec;
+        letter-spacing: 2px;
+        font-size: 13px;
+
+        a {
+            color: #ececec;
+            text-decoration: none;
+            transition: color 300ms ease-in-out;
+
+            &:hover {
+                color: #FF928B;
+            }
+        }
+    }
+}
+
+.burger {
+    display: none;
+}
+
