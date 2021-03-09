@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #283044;
 }
 
 .homepage {
@@ -102,7 +103,7 @@ html {
 
 .projects {
   background-color: #283044;
-  min-height: 110vh;
+  min-height: 130vh;
   padding-top: 8.5rem;
   color: #FF928B;
   font-family: 'Poppins', sans-serif;
@@ -131,7 +132,7 @@ html {
           align-items: center;
 }
 
-.projects .items .item_1 {
+.projects .item_1 {
   border-radius: 5px;
   -webkit-box-shadow: 2px 2px 30px 2px rgba(33, 31, 54, 0.408);
           box-shadow: 2px 2px 30px 2px rgba(33, 31, 54, 0.408);
@@ -139,7 +140,7 @@ html {
   padding: 1.9rem 2.3rem;
   height: 39vh;
   width: 42vh;
-  margin-bottom: 3rem;
+  margin-bottom: 2.25rem;
   -webkit-transition: -webkit-box-shadow 200ms ease-in-out;
   transition: -webkit-box-shadow 200ms ease-in-out;
   transition: box-shadow 200ms ease-in-out;
@@ -147,16 +148,16 @@ html {
   margin-left: 2rem;
 }
 
-.projects .items .item_1:hover {
+.projects .item_1:hover {
   -webkit-box-shadow: 3px 3px 20px 3px rgba(53, 48, 84, 0.564);
           box-shadow: 3px 3px 20px 3px rgba(53, 48, 84, 0.564);
 }
 
-.projects .items .item_1 header {
+.projects .item_1 header {
   height: 25vh;
 }
 
-.projects .items .item_1 header p {
+.projects .item_1 header p {
   color: #a2b4c3d0;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -164,7 +165,7 @@ html {
   font-size: 13px;
 }
 
-.projects .items .item_1 footer {
+.projects .item_1 footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,7 +178,7 @@ html {
           align-items: center;
 }
 
-.projects .items .item_1 footer ul {
+.projects .item_1 footer ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,23 +186,24 @@ html {
   width: 30vh;
 }
 
-.projects .items .item_1 footer ul li {
+.projects .item_1 footer ul li {
   margin-right: 1rem;
 }
 
-.projects .items .item_1 footer .open_site a {
+.projects .item_1 footer .open_site a {
   color: #a2b4c3d0;
   -webkit-transition: color 200ms ease-in-out;
   transition: color 200ms ease-in-out;
 }
 
-.projects .items .item_1 footer .open_site a:hover {
+.projects .item_1 footer .open_site a:hover {
   color: #FF928B;
 }
 
 .connect {
+  padding-top: 10rem;
   background-color: #283044;
-  height: 70vh;
+  height: 100vh;
   text-align: center;
   color: #FF928B;
 }
@@ -252,6 +254,22 @@ html {
 
 .connect .email:hover {
   background-color: #333849;
+}
+
+.end {
+  background-color: #283044;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-size: x-small;
+  color: #a2b4c3d0;
+  padding-bottom: 1rem;
+  -webkit-transition: color 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
+  letter-spacing: .75px;
+}
+
+.end:hover {
+  color: #69d6eed9;
 }
 
 nav {
