@@ -101,6 +101,24 @@ html {
   list-style: none;
 }
 
+.about .skillprofile {
+  margin-top: 3rem;
+}
+
+.about .skillprofile a {
+  border: 1px solid pink;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #FF928B;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+}
+
+.about .skillprofile a:hover {
+  background-color: #333849;
+}
+
 .projects {
   background-color: #283044;
   min-height: 130vh;
