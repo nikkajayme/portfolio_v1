@@ -92,6 +92,22 @@ html {
         font-weight: 390;
         list-style: none;
     }
+
+    .skillprofile {
+        margin-top: 3rem;
+        a {
+            border: 1px solid pink;
+            padding: 1rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #FF928B;
+            transition: background-color 200ms ease-in-out;
+
+            &:hover {
+            background-color: #333849;
+            }
+        }
+    }
 }
 
 .projects {
